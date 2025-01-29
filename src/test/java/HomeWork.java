@@ -21,9 +21,9 @@ public class HomeWork {
         List<WebElement> a1 = drv.findElements(By.tagName("a"));
 
         List<WebElement> input =drv.findElements(By.tagName("input"));
-        List<WebElement> input1 =drv.findElements(By.tagName("input"));
+        List<WebElement> input1 =drv.findElements(By.cssSelector("input"));
 
         List<WebElement> button =drv.findElements(By.tagName("button"));
-        List<WebElement> button1 =drv.findElements(By.tagName("button"));
+        List<WebElement> button1 =drv.findElements(By.cssSelector("button"));
     }
 }
