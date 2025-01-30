@@ -17,6 +17,14 @@ public class HomeWork {
 
     @Test
     public void cssLocatorsFromPBookLogin(){
+        WebElement  body =drv.findElement(By.tagName("body"));
+        WebElement  body1 =drv.findElement(By.cssSelector("body"));
+
+        WebElement div = drv.findElement(By.cssSelector("div"));
+        WebElement div1 = drv.findElement(By.tagName("div"));
+
+        WebElement h1=drv.findElement(By.cssSelector("h1"));
+
         List<WebElement> a = drv.findElements(By.cssSelector("a"));
         List<WebElement> a1 = drv.findElements(By.tagName("a"));
 
