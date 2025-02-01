@@ -72,6 +72,14 @@ public class HomeWork {
 
         WebElement h1_2 =drv.findElement(By.xpath("//*[text()='PHONEBOOK']"));
 
+        WebElement body3=drv.findElement(By.xpath("//body"));
+
+        WebElement div10=drv.findElement(By.xpath("//div[@class='container']"));
+
+        WebElement div11=drv.findElement(By.xpath("//div[@id='root']"));
+
+
+
 
 
     }
