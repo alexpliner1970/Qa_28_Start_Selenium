@@ -4,7 +4,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import java.util.List;
 
 public class HomeWork {
@@ -13,6 +12,11 @@ public class HomeWork {
     @BeforeClass
     public void setUp(){
         drv.get("https://telranedu.web.app/login");
+    }
+
+    @Test
+    public void classWork(){
+        WebElement al3= drv.findElement(By.xpath("//h1/ancestor::*"));
     }
 
     @Test
